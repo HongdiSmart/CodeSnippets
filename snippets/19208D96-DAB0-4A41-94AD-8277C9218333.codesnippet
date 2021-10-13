@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@tableinit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+if(@available(iOS 11.0, *)) {
+   tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+}
+[tableView registerClass:[&lt;#classCell#&gt; class] forCellReuseIdentifier:&lt;#kReuseIdentifier#&gt;];
+tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+tableView.dataSource = self;
+tableView.delegate = self;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>19208D96-DAB0-4A41-94AD-8277C9218333</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>列表初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITabelView init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
